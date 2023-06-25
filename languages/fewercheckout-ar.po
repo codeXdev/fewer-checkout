@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fewercheckout\n"
+"POT-Creation-Date: 2022-09-04 15:26+0300\n"
+"PO-Revision-Date: 2023-04-11 10:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e"
+
+#. Description of the plugin
+msgid ""
+"1-click biometric checkout- the fastest and most secure way to accept online "
+"payments."
+msgstr ""
+
+#. Author of the plugin
+msgid "Fewer"
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-wc-gateway-fewer.php:39
+#: includes/class-wc-gateway-fewer.php:47
+msgid "Fewer Checkout"
+msgstr ""
+
+#: includes/class-wc-gateway-fewer.php:69
+msgid "Enable Fewer"
+msgstr ""
+
+#: includes/class-wc-gateway-fewer.php:67
+msgid "Enable/Disable"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://amwal.tech"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://amwal.tech/"
+msgstr ""
+
+#: includes/class-wc-gateway-fewer.php:28
+msgid ""
+"Note: Fewer Checkout will continue to function even if it is disabled as a "
+"payment gateway. This option is here for integrations that require an active "
+"payment gateway code."
+msgstr ""
+
+#: includes/class-wc-gateway-fewer.php:46
+msgid "Pay securely with MADA, credit cards or with Apple Pay"
+msgstr "Apple Pay دفع آمن ببطاقات مدى، الائتمان، أو"
+
+#: includes/class-wc-gateway-fewer.php:37
+msgid "Payment through"
+msgstr ""

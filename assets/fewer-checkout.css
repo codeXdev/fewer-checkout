@@ -1,0 +1,235 @@
+.fewer-container {
+  clear: both;
+  flex-basis: 360px;
+}
+
+.fewer-container::before,
+.fewer-container::after {
+  display: block;
+  content: '';
+  flex-basis: 100%;
+  height: 0;
+}
+
+.fewer-wrap {
+  clear: both;
+  display: flex;
+  padding: 14px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.fewer-separator {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font: 400 .85rem Arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  font-variant: normal;
+  text-rendering: geometricPrecision;
+  margin: 5px 0 15px;
+  color: #aaa;
+}
+
+.fewer-separator::before,
+.fewer-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.fewer-separator:not(:empty)::before {
+  margin-right: .5em;
+}
+
+.fewer-separator:not(:empty)::after {
+  margin-left: .5em;
+}
+
+button.fewer-checkout,
+button.fewer-checkout:hover,
+button.fewer-checkout:focus {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 52px;
+  margin: 7px auto;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: #080808;
+  border-radius: 7px;
+  text-decoration: none !important;
+  transform: none;
+  cursor: pointer;
+}
+
+button.fewer-checkout::before,
+button.fewer-checkout:hover::before,
+button.fewer-checkout:focus::before,
+button.fewer-checkout::after,
+button.fewer-checkout:hover::after,
+button.fewer-checkout:focus::after {
+  content: none !important;
+}
+
+
+.fewer-logo {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  line-height: normal;
+  color: #fafafa;
+}
+
+.fewer-mini-cart .fewer-checkout,
+.fewer-mini-cart .fewer-checkout:hover,
+.fewer-mini-cart .fewer-checkout:focus {
+  height: 45px;
+  margin: 0 auto 7px;
+}
+
+
+.fewer-product-page{
+  padding-top: .5em;
+}
+
+.payment_method_Fewer label img{
+  height: 18px;
+}
+
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.stepper-horizontal {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+}
+.stepper-horizontal .step {
+  display: table-cell;
+  position: relative;
+  padding: 1.5rem;
+  z-index: 2;
+  width: 25%;
+}
+.stepper-horizontal .step:last-child .step-bar-left, .stepper-horizontal .step:last-child .step-bar-right {
+  display: none;
+}
+.stepper-horizontal .step .step-circle {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  z-index: 2;
+  border: 2px solid #D9E2EC;
+}
+.stepper-horizontal .step.done .step-circle {
+  background-color: #199473;
+  border: 2px solid #199473;
+  color: #FFFFFF;
+}
+.stepper-horizontal .step.done .step-circle:before {
+  font-family: 'FontAwesome';
+  font-weight: 100;
+  content: "\f00c";
+}
+.stepper-horizontal .step.done .step-circle * {
+  display: none;
+}
+.stepper-horizontal .step.done .step-title {
+  color: #102A43;
+}
+.stepper-horizontal .step.editing .step-circle {
+  background: #ffffff;
+  border-color: #199473;
+  color: #199473;
+}
+.stepper-horizontal .step.editing .step-title {
+  color: #199473;
+  text-decoration: underline;
+}
+.stepper-horizontal .step .step-title {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.stepper-horizontal .step .step-title, .stepper-horizontal .step .step-optional {
+  text-align: center;
+  color: #829AB1;
+}
+.stepper-horizontal .step .step-optional {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #9FB3C8;
+}
+.stepper-horizontal .step .step-bar-left, .stepper-horizontal .step .step-bar-right {
+  position: absolute;
+  top: calc(2rem + 5px);
+  height: 5px;
+  background-color: #D9E2EC;
+  border: solid #D9E2EC;
+  border-width: 2px 0;
+}
+.stepper-horizontal .step .step-bar-left {
+  width: calc(100% - 2rem);
+  left: 50%;
+  margin-left: 1rem;
+  z-index: -1;
+}
+.stepper-horizontal .step .step-bar-right {
+  width: 0;
+  left: 50%;
+  margin-left: 1rem;
+  z-index: -1;
+  transition: width 500ms ease-in-out;
+}
+.stepper-horizontal .step.done .step-bar-right {
+  background-color: #199473;
+  border-color: #199473;
+  z-index: 3;
+  width: calc(100% - 2rem);
+}
+
+
+.input-wrapper {
+  position: relative;
+}
+
+.fewer-input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+.fewer-label {
+  position: absolute;
+  top: 0.6ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}

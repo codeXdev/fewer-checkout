@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfewer_checkout_woocommerce=globalThis.webpackChunkfewer_checkout_woocommerce||[]).push([[1140],{1140:(o,s,c)=>{c.r(s),c.d(s,{ion_row:()=>r});var e=c(6472),l=c(2445);const r=class{constructor(o){(0,e.r)(this,o)}render(){return(0,e.h)(e.H,{class:(0,l.g)(this)},(0,e.h)("slot",null))}};r.style=":host{display:flex;flex-wrap:wrap}"}}]);
